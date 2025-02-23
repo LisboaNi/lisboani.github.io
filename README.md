@@ -9,7 +9,9 @@ Eu sou **Nicoli Lisboa**, uma desenvolvedora júnior focada em **backend**. Esto
 - **Banco de Dados:** MySQL e Dbeaver
 - **Ferramentas:** Git, GitHub, Sequelize e Node.js
 
-### 🌐 Contato
-- GitHub: [LisboaNi](https://github.com/LisboaNi)
+### 🌐 Links Importantes
+- **Link da Aplicação:** [Portfólio](https://lisboani.github.io) 
+- **GitHub:** [LisboaNi](https://github.com/LisboaNi) 
+
 
 Obrigado por visitar meu portfólio!
