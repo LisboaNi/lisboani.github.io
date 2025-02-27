@@ -5,6 +5,8 @@
     align-items: center;
     opacity: 0.8;
     background-color: #333;
+    position: fixed;
+    width: 100%;
 }
 
 .header_opcoes h1 {
@@ -33,7 +35,7 @@ nav ul li a {
 
 nav ul li a i{
     color: #7851A9;
-    font-size: 1.6em;
+    font-size: 1.2em;
 }
 
 nav ul li a:hover {
@@ -58,7 +60,7 @@ nav ul li a:hover i {
     padding-top: 200px;	
     padding-left: 200px;
     padding-right: 50%;
-    padding-bottom: 80px;
+    padding-bottom: 200px;
     text-align: justify;
 }
 
