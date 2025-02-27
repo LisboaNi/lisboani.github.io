@@ -13,18 +13,6 @@
     font-size: 1.6em;
 }
 
-.header_opcoes.shrink {
-    padding: 10px 0; 
-}
-
-.header_opcoes.shrink h1 {
-    font-size: 1.5rem; 
-}
-
-.header_opcoes.shrink p {
-    font-size: 1rem; 
-}
-
 nav ul {
     list-style-type: none;
     padding: 0;
