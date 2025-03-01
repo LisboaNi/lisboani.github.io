@@ -30,6 +30,7 @@
     transition: transform 0.5s;
     background-position: center; 
     animation: scaleAnimation 10s ease-in-out forwards;
+
 }
 
 @keyframes scaleAnimation {

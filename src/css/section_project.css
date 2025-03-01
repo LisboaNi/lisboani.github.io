@@ -1,0 +1,81 @@
+#projetos {
+    padding: 80px 200px 50px 200px;
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden; /* Para garantir que os elementos filhos não saiam da borda arredondada */
+}
+
+/* Estilo para o título da seção de projetos */
+#projetos h2 {
+    font-size: 2em; /* Tamanho da fonte */
+    color: #f4f4f4; /* Cor do texto */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    text-align: center; /* Alinhamento centralizado */
+}
+
+/* Estilo para cada projeto */
+.projeto {
+    background-color: #fff; /* Cor de fundo dos cartões de projeto */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para os cartões de projeto */
+    margin-bottom: 20px; /* Espaçamento entre os cartões */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave para transformação e sombra */
+    transform: translateY(30px); /* Começa deslocado para baixo */
+    opacity: 0; /* Começa invisível */
+    animation: fadeInUp 0.6s forwards ease-in-out; /* Animação de fade-in e slide-up */
+    position: relative; /* Para posicionar a listra */
+    width: 80%; /* Diminuir o tamanho dos cartões de projeto */
+    margin: 10px auto; /* Centralizar os cartões */
+}
+
+/* Animação de fade-in e slide-up */
+@keyframes fadeInUp {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Estilo para as listras coloridas */
+.projeto::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #7851A9; /* Cor da listra */
+    border-top-left-radius: 5px; /* Bordas arredondadas na parte superior */
+    border-bottom-left-radius: 5px; /* Bordas arredondadas na parte inferior */
+}
+
+/* Estilo para os títulos dos projetos */
+.projeto h3 {
+    font-size: 1.5em; /* Tamanho da fonte */
+    color: #7851A9; /* Cor do texto */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+/* Estilo para as descrições dos projetos */
+.projeto p {
+    font-size: 1em; /* Tamanho da fonte */
+    color: #666; /* Cor do texto */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+}
+
+/* Estilo para os links do GitHub */
+.projeto a {
+    color: #7851A9; /* Cor do link */
+    text-decoration: none; /* Remover sublinhado */
+    transition: color 0.3s ease; /* Transição suave para a cor do link */
+}
+
+.projeto a:hover {
+    color: #333; /* Cor do link ao passar o mouse */
+}
+
+/* Animação ao passar o mouse sobre os cartões de projeto */
+.projeto:hover {
+    transform: translateY(-10px); /* Eleva o cartão */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta a sombra para dar um efeito elevado */
+}
