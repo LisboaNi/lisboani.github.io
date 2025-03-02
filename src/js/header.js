@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Animação de texto
-    const textElements = document.querySelectorAll("#animated-text, #animated-text-h3");
+    const textElements = document.querySelectorAll("#animated-text");
 
     textElements.forEach(textElement => {
         const text = textElement.innerText;

@@ -1,0 +1,73 @@
+#projetos {
+    padding: 50px 200px; 
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  #projetos h2 {
+    font-size: 2em;
+    color: #f4f4f4;
+    margin-bottom: 30px;
+    /* text-align: center; */
+  }
+  
+  .projeto {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    width: 45%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Adiciona a borda roxa */
+  .projeto::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 100%;
+    background-color: #7851A9; /* Cor da borda */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .projeto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .projeto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .projeto h3 {
+    font-size: 1em;
+    color: #7851A9;
+    margin-bottom: 10px;
+  }
+  
+  .projeto p {
+    font-size: 0.8em;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .projeto a {
+    color: #7851A9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .projeto a:hover {
+    color: #333;
+  }
+  
