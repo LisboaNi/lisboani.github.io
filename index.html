@@ -3,97 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Nicoli Lisboa</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Portifolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="src/css/header_section.css">
+    <link rel="stylesheet" href="src/css/section_about.css">
+    <link rel="stylesheet" href="src/css/section_ability.css">
+    <link rel="stylesheet" href="src/css/section_project.css">
+
+    <script src="src/js/index.js" defer></script>
+    <script src="src/js/header.js" defer></script>
+    <script src="src/js/header_section.js" defer></script>
+
 </head>
 <body>
 
-    <header>
-        <div class="container">
-            <h1>Nicoli Lisboa</h1>
-            <p>Desenvolvedora Júnior | Python | Backend</p>
-        </div>
-    </header>
+    <!--Apresentação-->
+    <div class="header">
 
+        <!--Header-->
+        <header class="header_opcoes">
+            <h1>LisboaNi</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i></a></li>
+                    <li><a href="#sobre">SOBRE</a></li>
+                    <li><a href="#sobre">HABILIDADES</a></li>
+                    <li><a href="#projetos">PROJETOS</a></li>
+                    <li><a href="#home">CONTATO</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Home-->
+        <section id="home" class="home">
+            <h2 id="animated-text">Nicoli G R Lisboa</h2>
+            <h3 id="animated-text">Dev Júnior | Python | Backend</h3>
+            <br><br>
+            <div class="home_animated">
+                <h4>Seja bem-vindo!</h4>
+                <br>
+                <p>Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na USCS, com previsão de conclusão em julho de 2025. Tenho conhecimento em Node.js, Sequelize, MySQL, Python e ferramentas como Git e GitHub.
+                <br><br>
+                Aqui, você encontrará alguns dos meus projetos, que refletem minha evolução e paixão pela tecnologia. Sinta-se à vontade para explorar meu trabalho e entrar em contato! </p>
+                <br>
+                <a href="mailto:nick.lisboa04@gmail.com"><i class="fa fa-envelope"></i> E-mail</a>
+                <a href="https://www.linkedin.com/in/nicoli-g-r-lisboa-0a85a221a" target="_blank"><strong>Linkedin</strong></a>
+                <a href="https://github.com/seuperfil" target="_blank"><strong>GitHub</strong></a>
+            </div>
+        </section>
+
+    </div>
+
+    <!--Conteudo-->
     <main>
 
-        <section class="about">
-            <h2>Sobre Mim</h2>
-            <p>Olá! Meu nome é Nicoli G R Lisboa, sou Desenvolvedora Júnior e atualmente estou cursando Análise e Desenvolvimento de Sistemas na USCS. Minha jornada no mundo da tecnologia começou com meu primeiro emprego, em uma empresa com foco em IoT. Desde então, venho me aprimorando em linguagens de programação e buscando aprender mais sobre a área.
-                <br><br>
-                Embora esteja no início da minha carreira, tenho uma boa base de conhecimento e estou sempre buscando melhorar minhas habilidades, especialmente em desenvolvimento backend. Atualmente, estou desenvolvendo meu TCC, que integra todos os conhecimentos adquiridos ao longo da graduação.
-                <br><br>
-                Busco oportunidades para crescer profissionalmente e aplicar o que aprendi em novos desafios!
-            </p>
-            <a href="mailto:nick.lisboa04@gmail.com">Entre em Contato</a>
-
-            <br><br><hr><br><br>
-            
-            <h2>Habilidades Técnicas (Nível Júnior)</h2>
-            <ul>
-                <li><b>Linguagens de Programação:</b> Python, HTML, CSS, JavaScript e SQL;</li>
-                <li><b>Banco de Dados:</b> Conhecimento em bancos relacionais como MySQL;</li>
-                <li><b>Versionamento de Código:</b> Uso básico de Git e GitHub para versionamento de código e colaboração em projetos;</li>
-                <li><b>Ferramenta e Tecnologias:</b> Sequelize para manipulação de banco de dados em Node.js.</li>
-            </ul>
-
-            <br><br><hr>
-
-        </section>
-
-        <section class="main">
-            <h2>PROJETOS</h2>
-                <section class="projects">
-                    <div class="project">
-                    <h3>TCC - IT Jobs</h3>
-                    <p>O projeto foi desenvolvido como parte do TCC da Faculdade USCS.
-                        O IT Jobs é uma solução focada em conectar candidatos de TI com empresas.</p>
-                        <p><b>Tecnologias:</b> JavaScript, HTML, CSS, Node.js e Sequelize.</p>
-                    <a href="https://github.com/LisboaNi/PIM_USCS_ITJOBS" target="_blank">Ver no GitHub</a>
-                </div>
-                <div class="project">
-                    <h3>DevOps</h3>
-                    <p>Esse projeto é um conjunto de testes unitários para funções de uma calculadora. 
-                        Utiliza Jest para validar se os resultados das operações.
+        <!--Sobre Mim-->
+        <section id="sobre" class="about">
+            <div class="container">
+                <div class="image1"></div>
+                <div class="text">
+                    <h2>SOBRE</h2>
+                    <p>
+                        Sou Desenvolvedora Júnior e atualmente estou cursando Análise e Desenvolvimento de Sistemas na USCS. Minha jornada no mundo da tecnologia começou com meu primeiro emprego, em uma empresa com foco em IoT. Desde então, venho me aprimorando em linguagens de programação e buscando aprender mais sobre a área.
+                        <br><br>
+                        Embora esteja no início da minha carreira, tenho uma boa base de conhecimento e estou sempre buscando melhorar minhas habilidades, especialmente em desenvolvimento backend. Atualmente, estou desenvolvendo meu TCC, que integra todos os conhecimentos adquiridos ao longo da graduação.
+                        <br><br>
+                        Busco oportunidades para crescer profissionalmente e aplicar o que aprendi em novos desafios!
                     </p>
-                    <p><b>Tecnologias:</b> JavaScript</p>
-                    <a href="https://github.com/LisboaNi/DevOps-001" target="_blank">Ver no GitHub</a>
                 </div>
-            </section>
-            <section class="projects">
-                <div class="project">
-                    <h3>Python</h3>
-                    <p>O projeto foi desenvolvido para criar o primeiro programa em Python / Django. Está em andamento.</p>
-                        <p><b>Tecnologias:</b> Python.</p>
-                    <a href="https://github.com/LisboaNi/Python-001" target="_blank">Ver no GitHub</a>
-                </div>
-                <div class="project">
-                    <h3>____</h3>
-                    <p>Sobre mais informações de outros projetos voltados para o estudo.</p>
-                        <p><b>Tecnologias como:</b> SQL e C#.</p>
-                    <a href="https://github.com/LisboaNi" target="_blank">Meu GitHub</a>
-                </div>
-            </section>
+            </div>
         </section>
+
+        <!--Habilidades por etiquetas-->
+        <section id="habilidades" class="habilidades">
+            <h2>HABILIDADE - NÍVEL DEV JUNIOR</h2>
+            <p>Linguagens de Programação | Bancos de Dados e Ferramentas | Frameworks | Ferramentas de Desenvolvimento</p>
+            <br><br>
+            <a><i class="fab fa-html5"></i> HTML</a>
+            <a><i class="fab fa-css3-alt"></i> CSS</a>
+            <a><i class="fab fa-js"></i> JAVASCRIPT</a>
+            <a><i class="fab fa-python"></i> PYTHON</a>
+            <a><i class="fas fa-database"></i> MYSQL</a>
+            <a><i class="fas fa-database"></i> DBEAVER</a>
+            <a><i class="fab fa-node-js"></i> NODE.JS</a>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos">
+            <h2>PROJETOS</h2>
+            <div class="projeto">
+              <img src="src/image/image_project.jpg" alt=" ">
+              <h3>IT Jobs</h3>
+              <p>O projeto foi desenvolvido como parte do TCC. Solução focada em conectar candidatos de TI com empresas.</p>
+              <p><b>Tecnologias:</b> JavaScript, HTML, CSS, Node.js e Sequelize.</p>
+              <br>
+              <a href="https://github.com/LisboaNi/PIM_USCS_ITJOBS" target="_blank"><b>Ver no GitHub</b></a>
+            </div>
+            <div class="projeto">
+                <img src="src/image/image_project.jpg" alt=" ">
+              <h3>DevOps</h3>
+              <p>Esse projeto é um conjunto de testes unitários para funções de uma calculadora. Utiliza Jest para validar.</p>
+              <p><b>Tecnologias:</b> JavaScript</p>  
+              <br>
+              <a href="https://github.com/LisboaNi/DevOps-001" target="_blank">Ver no GitHub</a>          
+            </div>
+            <div class="projeto">
+                <img src="src/image/image_project.jpg" alt=" ">
+              <h3>StoreMaster</h3>
+              <p>Esse projeto oferece uma experiência de compra online simplificada e administração de uma loja. Está em andamento.</p>
+              <p><b>Tecnologias:</b> Python.</p> 
+              <br>
+              <a href="https://github.com/LisboaNi/Python-002" target="_blank">Ver no GitHub</a>
+            </div>
+            <div class="projeto">
+                <img src="src/image/image_project.jpg" alt=" ">
+              <h3>Outros</h3>
+              <p>Sobre mais informações de outros projetos voltados para o estudo.</p>
+              <br>
+              <p><b>Tecnologias como:</b> SQL e C#.</p>
+              <br>
+              <a href="https://github.com/LisboaNi" target="_blank">Meu GitHub</a>
+            </div>
+          </section>          
     </main>
 
+    <!-- Rodapé -->
     <footer>
         <div class="container">
             <p>&copy; 2025 Nicoli Lisboa. Todos os direitos reservados.</p>
         </div>
     </footer>
-    
-    <script>
-                // Seleciona o header
-        const header = document.querySelector('header');
-
-        window.onscroll = function() {
-            if (window.scrollY > 10) {
-                header.classList.add('shrink'); 
-            } else {
-                header.classList.remove('shrink'); 
-            }
-        };
-    </script>
 </body>
 </html>
