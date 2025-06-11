@@ -1,0 +1,37 @@
+.introdução {
+    max-width: 1200px;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.section-experiencia {
+    max-width: 1200px;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+
+.section-experiencia .subtitulo {
+    color: #e0e0e0;
+    text-transform: uppercase;
+    word-break: break-all;
+    font-size: 8rem;
+}
+
+.experiencia {
+    font-size: 1.5rem;
+    max-width: 40ch;
+    line-height: 1.4rem;
+    margin-bottom: 60px;
+    color: #525252;
+}
