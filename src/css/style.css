@@ -1,0 +1,95 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* HEADER */
+
+header {
+    padding: 40px 20px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 80px;
+}
+
+header .menu {
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header .menu a {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: #141414;
+    font-size: 1rem;
+}
+
+header .menu a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #8f72ca;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+/* INTRODUÇÃO */
+
+main .introdução {
+    max-width: 1200px;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+}
+
+main .introdução img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+main .introdução h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+main .introdução p {
+    font-size: 1.5rem;
+}
+
+
+/* .section-experiencia {
+    max-width: 1200px;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+
+.section-experiencia .subtitulo {
+    color: #e0e0e0;
+    text-transform: uppercase;
+    word-break: break-all;
+    font-size: 8rem;
+}
+
+.experiencia {
+    font-size: 1.5rem;
+    max-width: 40ch;
+    line-height: 1.4rem;
+    margin-bottom: 60px;
+    color: #525252;
+} */
