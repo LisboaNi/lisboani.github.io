@@ -2,39 +2,32 @@
 /* EXPERIENCIA */
 
 .section-experiencia {
-    max-width: 1200px;
-    padding: 40px 20px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 100px;
 }
 
-.section-experiencia .subtitulo, .section-formacao .subtitulo {
+.section-experiencia .subtitulo {
     color: #e0e0e0;
-    text-transform: uppercase;
-    word-break: break-all;
-    font-size: 8rem;
-    line-height: 1;
 }
-
+    
 .experiencia {
-    font-size: 1.5rem;
-    line-height: 1.4rem;
-    margin-bottom: 60px;
+    text-align: justify;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
     color: #525252;
 }
 
 .exp-div {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px 20px;
-    padding: 20px;
+    gap: 10px;
+    padding: 10px;
     background: #f5f5f5;
     margin-bottom: 20px;
     border-radius: 4px;
     position: relative;
 }
-
+    
 .exp-titulo {
     font-size: 1.125rem;
     line-height: 1.1;
@@ -63,7 +56,6 @@
     gap: 10px;
     align-content: start;
 }
-
 
 .exp-habilidades li {
     font-size: .875rem;

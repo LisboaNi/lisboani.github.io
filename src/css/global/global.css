@@ -17,9 +17,18 @@ a {
 }
 
 header,
-main .introdução {
+main .introdução,
+.section-experiencia {
     gap: 100px;
     padding: 20px;
     max-width: 1200px;
     align-items: center;
+}
+
+.subtitulo {
+    text-transform: uppercase;
+    word-break: break-all;
+    font-size: 5.5rem;
+    line-height: 1;
+    margin-left: 100px;
 }
