@@ -1,31 +1,58 @@
 /* INTRODUÇÃO */
 
-main .introdução {
-    max-width: 1200px;
-    padding: 40px 20px;
+.introdução {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
-    gap: 100px;
+    grid-template-columns: 2fr 1fr;
 }
 
-main .introdução img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-main .introdução h2 {
-    font-size: 4.5rem;
+.introdução h2 {
+    font-weight: normal;
     text-transform: uppercase;
-}
-
-main .introdução p {
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin-bottom: 20px;
 }
 
-main .introdução span {
-    font-size: 1.5rem;
-    color: #525252;
+.introdução h2 span {
+    font-weight: bolder;
+    font-size: 3.5rem;
+    color: #263547;
+}
+
+.introdução p {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.introdução img {
+    opacity: 0.9;
+    width: 55%;
+}
+
+@media (max-width: 800px) {
+
+    .introdução h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .introdução h2 span {
+        font-size: 2.5rem;
+    }
+
+    .introdução p {
+        font-size: 1rem;
+    }
+    
+}
+
+@media (max-width: 650px) {
+
+    .introdução img {
+        display: none;
+    }
+    
+    .introdução {
+        grid-template-columns: 1fr;
+    }
+
 }
