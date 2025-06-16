@@ -15,7 +15,8 @@
 }
 
 .section-formacao .subtitulo{
-    color: #000;
+    /* color: #000; */
+    color: #e0e0e0;
 }
 
 .section-formacao .for-texto{

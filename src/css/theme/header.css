@@ -2,11 +2,12 @@
 
 header {
     display: flex;
-    justify-content: space-between;
+    gap: 600px;
 }
 
 header img {
-    width: 80px;
+    width: 60px;
+    margin: 0;
 }
 
 .menu {
@@ -24,7 +25,7 @@ header img {
 .menu a:hover {
     text-decoration-line: underline;
     text-decoration-color: #263547;
-    text-decoration-thickness: 3px;
+    text-decoration-thickness: 5px;
     text-underline-offset: 10px;
 }
 

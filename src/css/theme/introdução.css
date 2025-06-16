@@ -1,8 +1,12 @@
 /* INTRODUÇÃO */
 
+main {
+    background-color:#f5f5f5;
+}
+
 .introdução {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .introdução h2 {
@@ -23,9 +27,8 @@
     margin-bottom: 10px;
 }
 
-.introdução img {
-    opacity: 0.9;
-    width: 55%;
+.intro {
+    margin: 50px 0px;
 }
 
 @media (max-width: 800px) {
@@ -46,10 +49,6 @@
 }
 
 @media (max-width: 650px) {
-
-    .introdução img {
-        display: none;
-    }
     
     .introdução {
         grid-template-columns: 1fr;
