@@ -1,31 +1,35 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0;
-    margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0 auto;
 }
 
 body {
-    color: #141414;
-    font-size: 1.125rem;
+  color: #141414;
+  font-size: 1.125rem;
 }
 
-ul, a {
-    text-decoration: none;
-    list-style: none;
-    color: #141414;
+ul,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #141414;
 }
 
-a, h1, h2 {
-    text-transform: uppercase;
-    margin: 0;
+a,
+h1,
+h2 {
+  text-transform: uppercase;
+  margin: 0;
 }
 
-h1, h2 {
-    font-size: 3.5rem;
+h1,
+h2 {
+  font-size: 3.5rem;
 }
 
 .about-me {
-    text-align: justify;
+  text-align: justify;
 }
 
 .header,
@@ -35,13 +39,13 @@ h1, h2 {
 .for,
 .curso,
 .footer {
-    max-width: 1200px;
-    justify-content: space-between;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    padding: 40px 20px;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 40px 20px;
 }
 
 .intro,
@@ -51,24 +55,24 @@ h1, h2 {
 .for-item,
 .curso-item,
 .footer-item {
-    margin: 0;
+  margin: 0;
 }
 
 .black-one,
 .black-two {
-    color: #f5f5f5;
-    background-color: #141414;
+  color: #f5f5f5;
+  background-color: #141414;
 }
 
 .black-one ul,
-.black-two ul{
-   color: #f5f5f5; 
+.black-two ul {
+  color: #f5f5f5;
 }
 
 .blue {
-    color: #263547;
+  color: #263547;
 }
 
 .absolute {
-    color: #a3a3a3;
+  color: #a3a3a3;
 }

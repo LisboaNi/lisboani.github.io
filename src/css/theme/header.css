@@ -1,38 +1,38 @@
 /*HEADER*/
 .menu {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0;
 }
 
 .menu a:hover {
-    text-decoration-line: underline;
-    text-decoration-color: #263547;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 10px;
+  text-decoration-line: underline;
+  text-decoration-color: #263547;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
 }
 
 .logo {
-    max-width: 60px;
-    margin: 0;
+  max-width: 60px;
+  margin: 0;
 }
 
 /*MAIN*/
 
 .main {
-    padding: 0px 20px;
+  padding: 0px 20px;
 }
 
 .intro {
-    margin: 100px 0px;
-    position: relative;
+  margin: 100px 0px;
+  position: relative;
 }
 
 .intro h1 {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .intro h1 span {
-    font-weight: bolder;
+  font-weight: bolder;
 }
