@@ -8,10 +8,10 @@
 
 .section-formacao {
     max-width: 1200px;
-    padding: 120px 20px;
+    padding: 20px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 100px;   
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;   
 }
 
 .section-formacao .subtitulo{
@@ -20,13 +20,17 @@
 }
 
 .section-formacao .for-texto{
-    font-size: 1.5rem;
-    margin-bottom: 60px;
+    font-size: 1.3rem;
+    text-align: justify;
     color: #a3a3a3;
 }
 
 .section-formacao .for-texto strong {
-    color: #fff;
+    color: #e0e0e0;
+}
+
+.div-formacao{
+    margin: 0px;
 }
 
 .fac-list {

@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    color: #141414;
+}
+
+body {
+   color: #141414; 
 }
 
 ul {
@@ -30,5 +33,5 @@ main .introdução,
     word-break: break-all;
     font-size: 3.5rem;
     line-height: 1;
-    margin-top: 50px;
+    margin-top: 20px;
 }
