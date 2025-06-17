@@ -1,0 +1,59 @@
+/* EXPERIENCIA */
+.experience {
+    height: 800px; 
+}
+
+.exp {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.item {
+    margin: 0;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.exp h2{
+    margin-bottom: 50px;    
+}
+
+.item h3,
+.item span {
+    grid-column: 1 / -1; 
+    margin: 0;
+}
+
+.exp-hab {
+    margin: 0;  
+    margin-bottom: 50px;
+    margin-top: 10px;  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #f5f5f5;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    border-left: 5px solid #263547; 
+}
+
+.exp .absolute {
+    font-size: 0.9rem;
+}
+
+.hab {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.hab li {
+    color: #f5f5f5;
+    border-radius: 4px;
+    background: #141414;
+    opacity: 0.8;
+    padding: 5px 10px;
+    margin: 0;
+    font-size: 0.9rem;
+}
