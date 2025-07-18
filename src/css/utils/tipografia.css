@@ -1,22 +1,44 @@
+/* HEADER */
 .font-1 {
-  font: 300 1em/1em "Titillium Web", sans-serif;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.font-2 {
-  font: 500 3em/1em "Poppins", sans-serif;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-}
-
-.font-3 {
-  font: 500 1.5em "Poppins", sans-serif;
+  font: 500 1em "Titillium Web", sans-serif;
   letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
-.font-4 {
-  font: 300 1.2em "Poppins", sans-serif;
-  letter-spacing: 0.1em;
+/* TITULO PRINCIPAL */
+.font-2 {
+  font: 400 3em/1em "Poppins", sans-serif;
   text-transform: uppercase;
+}
+
+/* SUB-TITULO PRINCIPAL */
+.font-3 {
+  font: 300 1.5em "Poppins", sans-serif;
+}
+
+/* TITULO ESTILO 1 */
+.font-4 {
+  font: 500 2em "Poppins", sans-serif;
+  letter-spacing: 0.02;
+  text-transform: uppercase;
+}
+
+/* CONTEUDO */
+
+.font-5 {
+  font: 400 1.125em "Titillium Web", sans-serif;
+}
+
+.font-6 {
+  font: 500 1em "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.font-8 {
+  font: 300 1em "Titillium Web", sans-serif;
+}
+
+/* SUB-TITULO 1 */
+.font-7 {
+  font: 400 1.625em "Poppins", sans-serif;
 }

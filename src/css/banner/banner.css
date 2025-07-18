@@ -5,11 +5,11 @@
   z-index: 0;
 }
 
-.banner-bg::after {
+.banner-bg::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../../img/banner/banner.svg");
+  background-image: url("../../img/background/banner_bottom.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right bottom;
@@ -28,16 +28,12 @@
   margin-top: 10px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .banner {
     height: 200px;
   }
 
   .banner h1 {
     font-size: 2em;
-  }
-
-  .banner-bg::before {
-    opacity: 0.5;
   }
 }

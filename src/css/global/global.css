@@ -31,8 +31,25 @@ a {
   padding: 20px 40px;
 }
 
-.titulo-1 {
+.title-1 {
+  padding-bottom: 15px;
+  margin-bottom: 80px;
+  border-bottom: var(--cor-5) solid 1.5px;
+}
+
+.title-2 {
+  justify-items: center;
+  margin-bottom: 40px;
+}
+
+.title-2 h1 {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: var(--cor-p1) solid 3px;
+}
+
+.title-3 {
   padding-bottom: 15px;
   margin-bottom: 40px;
-  border-bottom: var(--cor-5) solid 1.5px;
+  border-bottom: var(--cor-p1) solid 3px;
 }

@@ -1,0 +1,32 @@
+<svg width="375" height="475" viewBox="0 0 375 475" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paint0_linear_105_2" x1="239" y1="235" x2="239" y2="35" gradientUnits="userSpaceOnUse">
+      <stop offset="0.4" stop-color="#0ABAB5"/>
+      <stop offset="1" stop-color="#4C53C6"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_105_2" x1="85" y1="407" x2="85" y2="107" gradientUnits="userSpaceOnUse">
+      <stop offset="0.4" stop-color="#0ABAB5"/>
+      <stop offset="1" stop-color="#4C53C6"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear_96_2" x1="601" y1="48" x2="601" y2="8" gradientUnits="userSpaceOnUse">
+      <stop offset="0.4" stop-color="#0ABAB5"/>
+      <stop offset="1" stop-color="#4C53C6"/>
+    </linearGradient>
+    <mask id="mask0_105_2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="375" height="475">
+      <rect width="375" height="475" fill="#D9D9D9"/>
+    </mask>
+  </defs>
+
+  <g mask="url(#mask0_105_2)">
+    <!-- Forma 1 com animação -->
+    <path opacity="0.1" d="M139 135C139 79.7715 183.772 35 239 35C294.228 35 339 79.7715 339 135C339 190.228 294.228 235 239 235C183.772 235 139 190.228 139 135Z" fill="url(#paint0_linear_105_2)">
+      <animateTransform attributeName="transform" type="translate" dur="5s" repeatCount="indefinite" values="0 0; 0 -8; 0 0"/>
+    </path>
+
+    <!-- Forma 2 com animação -->
+    <path opacity="0.1" d="M-65 257C-65 174.157 2.15729 107 85 107C167.843 107 235 174.157 235 257C235 339.843 167.843 407 85 407C2.15729 407 -65 339.843 -65 257Z" fill="url(#paint1_linear_105_2)">
+      <animateTransform attributeName="transform" type="translate" dur="6s" repeatCount="indefinite" values="0 0; 0 -10; 0 0"/>
+    </path>
+
+  </g>
+</svg>
