@@ -17,3 +17,6 @@
 
 /* CERTIFICATION */
 @import "./certification/certification.css";
+
+/* PROJECTS */
+@import "./project/project.css";

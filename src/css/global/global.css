@@ -17,10 +17,14 @@ a {
   display: block;
 }
 
-[src$=".jpg"] {
+[src$=".jpg"]{
   width: 100%;
   display: block;
   border-radius: 5px;
+}
+
+[src$=".png"] {
+  border-radius: 5px 5px 0px 0px;
 }
 
 /* COMPONENTE */
@@ -33,7 +37,7 @@ a {
 
 .title-1 {
   padding-bottom: 15px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   border-bottom: var(--cor-5) solid 1.5px;
 }
 

@@ -16,7 +16,7 @@
   z-index: -1;
 }
 
-button {
+.tabs-menu button {
   display: block;
   border: none;
   background-color: var(--cor-5);
@@ -26,8 +26,8 @@ button {
   transition: border-color 0.5s ease;
 }
 
-button:hover,
-button.active {
+.tabs-menu button:hover,
+.tabs-menu button.active {
   border-bottom: 3px solid var(--cor-p1);
 }
 
