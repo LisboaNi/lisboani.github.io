@@ -1,0 +1,22 @@
+.font-1 {
+  font: 300 1em/1em "Titillium Web", sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.font-2 {
+  font: 500 3em/1em "Poppins", sans-serif;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.font-3 {
+  font: 500 1.5em "Poppins", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.font-4 {
+  font: 300 1.2em "Poppins", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}

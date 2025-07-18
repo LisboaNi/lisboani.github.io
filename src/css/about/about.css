@@ -1,0 +1,5 @@
+.titulo {
+  padding-bottom: 15px;
+  margin-bottom: 40px;
+  border-bottom: var(--cor-5) solid 1.5px;
+}

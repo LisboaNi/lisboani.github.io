@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: var(--cor-3);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+[src$=".jpg"] {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+/* COMPONENTE */
+.container {
+  max-width: 1220px;
+  box-sizing: border-box;
+  margin: 0px auto;
+  padding: 20px 40px;
+}
+
+.titulo-1 {
+  padding-bottom: 15px;
+  margin-bottom: 40px;
+  border-bottom: var(--cor-5) solid 1.5px;
+}

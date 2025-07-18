@@ -1,0 +1,16 @@
+/* TIPOGRAFIA */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Titillium+Web:wght@600&display=swap");
+
+/* GLOBAL */
+@import "./global/global.css";
+@import "./global/header.css";
+
+/* UTILS */
+@import "./utils/cor.css";
+@import "./utils/tipografia.css";
+
+/* BANNER */
+@import "./banner/banner.css";
+
+/* ABOUT */
+@import "./about/about.css";

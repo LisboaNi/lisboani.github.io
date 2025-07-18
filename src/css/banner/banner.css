@@ -1,0 +1,43 @@
+.banner-bg {
+  background: var(--cor-5);
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.banner-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../../img/banner/banner.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  z-index: -1;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 300px;
+}
+
+.banner p {
+  margin-top: 10px;
+}
+
+@media (max-width: 700px) {
+  .banner {
+    height: 200px;
+  }
+
+  .banner h1 {
+    font-size: 2em;
+  }
+
+  .banner-bg::before {
+    opacity: 0.5;
+  }
+}

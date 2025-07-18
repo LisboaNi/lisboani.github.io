@@ -1,0 +1,59 @@
+<svg width="740" height="250" viewBox="0 0 740 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <mask id="mask0_96_2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="740" height="250">
+    <rect opacity="0.5" width="740" height="250" transform="matrix(-1 0 0 1 740 0)" fill="#D9D9D9"/>
+  </mask>
+  <g mask="url(#mask0_96_2)">
+    <!-- ONDA 1 -->
+    <path opacity="0.5" fill="url(#paint0_linear_96_2)">
+      <animate attributeName="d" dur="6s" repeatCount="indefinite" values="
+        M596.376 142.467C391.348 25.5088 400.144 324.956 157.205 223.475C53.7029 180.24 27.3404 269.946 -67.5485 269.143L36.2426 274.808L594.704 276.269L596.376 142.467Z;
+        M596.376 142.467C391.348 45.5088 400.144 304.956 157.205 233.475C53.7029 190.24 27.3404 259.946 -67.5485 269.143L36.2426 274.808L594.704 276.269L596.376 142.467Z;
+        M596.376 142.467C391.348 25.5088 400.144 324.956 157.205 223.475C53.7029 180.24 27.3404 269.946 -67.5485 269.143L36.2426 274.808L594.704 276.269L596.376 142.467Z
+      "/>
+    </path>
+
+    <!-- ONDA 2 -->
+    <path fill="url(#paint1_linear_96_2)">
+      <animate attributeName="d" dur="7s" repeatCount="indefinite" values="
+        M739.293 116.483C532.817 1.73895 545.354 301.071 301.164 202.212C197.128 160.093 171.889 250.077 76.9962 250.294L180.851 254.842L739.293 250.294L739.293 116.483Z;
+        M739.293 116.483C532.817 21.73895 545.354 281.071 301.164 212.212C197.128 170.093 171.889 240.077 76.9962 250.294L180.851 254.842L739.293 250.294L739.293 116.483Z;
+        M739.293 116.483C532.817 1.73895 545.354 301.071 301.164 202.212C197.128 160.093 171.889 250.077 76.9962 250.294L180.851 254.842L739.293 250.294L739.293 116.483Z
+      "/>
+    </path>
+
+    <!-- CÍRCULO FLUTUANTE -->
+    <g>
+      <path d="M621 28C621 39.0457 612.046 48 601 48C589.954 48 581 39.0457 581 28C581 16.9543 589.954 8 601 8C612.046 8 621 16.9543 621 28Z" fill="url(#paint2_linear_96_2)">
+        <animateTransform attributeName="transform" type="translate" dur="3s" repeatCount="indefinite"
+          values="0 0; 0 -8; 0 0"/>
+      </path>
+    </g>
+
+    <!-- BOLINHA FLUTUANTE -->
+    <g>
+      <circle cx="334" cy="156" r="10" fill="url(#paint3_linear_96_2)">
+        <animateTransform attributeName="transform" type="translate" dur="2.5s" repeatCount="indefinite"
+          values="0 0; 0 -8; 0 0"/>
+      </circle>
+    </g>
+  </g>
+
+  <defs>
+    <linearGradient id="paint0_linear_96_2" x1="543.001" y1="6.29734" x2="649.609" y2="262.418" gradientUnits="userSpaceOnUse">
+      <stop offset="0.5" stop-color="#0ABAB5"/>
+      <stop offset="1" stop-color="#4C53C6"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_96_2" x1="684.22" y1="-19.103" x2="793.713" y2="235.986" gradientUnits="userSpaceOnUse">
+      <stop offset="0.5" stop-color="#0ABAB5"/>
+      <stop offset="1" stop-color="#4C53C6"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear_96_2" x1="601" y1="8" x2="601" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0.4" stop-color="#0ABAB5"/>
+      <stop offset="1" stop-color="#4C53C6"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear_96_2" x1="334" y1="146" x2="334" y2="166" gradientUnits="userSpaceOnUse">
+      <stop offset="0.4" stop-color="#0ABAB5"/>
+      <stop offset="1" stop-color="#4C53C6"/>
+    </linearGradient>
+  </defs>
+</svg>
