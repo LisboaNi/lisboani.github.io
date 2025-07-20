@@ -60,7 +60,7 @@
                 </ul>
             </div>
 
-            <div class="experience">
+            <div id="experience" class="experience">
                 <h2 class="font-7">Experiências</h2>   
                 <ul class="experience-bg">
                     <li><h2 class="font-6">Opensystech<div><span>2022-2024</span></div></h2>Auxilixar Administrativo</li>
@@ -72,7 +72,7 @@
         </div>
     </section>
 
-    <section class="skill-bg">
+    <section id="skill" class="skill-bg">
 
         <div class="skill container font-5 cor-1">
             <h2 class="font-7">Habilidades</h2>
@@ -137,7 +137,7 @@
 
             <div class="title-3 cor-4"><h1 class="font-7">Cursos</h1></div>
 
-            <div class="certification font-8 cor-2">
+            <div id="progress" class="certification font-8 cor-2">
 
                 <ul>
                     <li><h2 class="font-6 cor-4"><i class="bi bi-code-square cor-p1"></i>Front-End</h2></li>
@@ -161,6 +161,7 @@
                     <li>Espanhol<span>-</span></li>
                 </ul>
             </div>
+
         </div>
     </section>
 
@@ -169,9 +170,7 @@
 
             <div class="title-1 cor-0"><h1 class="font-4">Projetos</h1></div>
 
-            <div class="project-wrapper">
-                <button class="scroll-left" onclick="scrollProjects(-1)"><i class="bi bi-arrow-left-circle"></i></button>
-                <ul class="project font-5">
+            <ul class="project font-5">
                     <li>
                         <img src="./src/img/project/bikcraft.png" alt="Project 1">
                         <div>
@@ -208,15 +207,26 @@
                             <span>Python</span>
                         </div>
                     </li>
-                </ul>
-                <button class="scroll-right" onclick="scrollProjects(1)"><i class="bi bi-arrow-right-circle"></i></button>
-            </div>
-            
+            </ul>
+
         </div>
     </section>
 
-    <script src="./src/js/certification.js"></script>
-    <script src="./src/js/project.js"></script>
+    <section id="tcc" class="tcc-bg">
+        <div class="tcc container">
+            <i class="bi bi-award cor-p1 font-2"></i>
+            <h2 class="font-7">Certificado de Excelência</h2>
+            <div class="font-5 cor-5">
+                <h3 class="font-3"><span class="cor-p1">MindTechCare</span> — TCC </h3>
+                <span class="font-3">USCS - Universidade de São Caetano do Sul</span>
+                <p>Aplicação web voltada para bem-estar no mundo TI oferecendo soluções práticas e responsivas.</p>
+                <p>O projeto recebeu destaque da banca avaliadora por sua inovação, estrutura de código e impacto prático.</p>
+                <a class="cor-p1" href="#">Visualizar Certificado<i class="bi bi-box-arrow-in-up-right"></i></a>
+            </div>
+        </div>
+    </section>
+    
+
 </body>
 
 </html>

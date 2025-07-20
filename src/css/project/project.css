@@ -1,27 +1,19 @@
-.project-wrapper {
+.projects-bg {
   position: relative;
-  overflow-x: hidden;
-  padding: 20px;
+  overflow: hidden;
+  z-index: 0;
+  margin-bottom: 40px;
 }
 
-.project-wrapper button {
+.projects-bg::before {
+  content: "";
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  font-size: 2rem;
-  color: var(--cor-1);
-  cursor: pointer;
-  z-index: 10;
-}
-
-.scroll-left {
-  left: 0px;
-}
-
-.scroll-right {
-  right: 0px;
+  inset: 0;
+  background-image: url("../../img/background/about_bottom.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+  z-index: -1;
 }
 
 .project {
@@ -30,7 +22,8 @@
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  padding: 20px 0px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .project li {
