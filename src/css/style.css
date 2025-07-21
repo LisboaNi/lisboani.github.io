@@ -17,6 +17,10 @@
 
 /* CERTIFICATION */
 @import "./certification/certification.css";
+@import "./certification/tcc.css";
 
 /* PROJECTS */
 @import "./project/project.css";
+
+/* CONTACT */
+@import "./contact/contact.css";

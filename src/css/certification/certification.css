@@ -39,7 +39,7 @@
 }
 
 .tabs-content {
-  height: 400px; 
+  height: 360px; 
   margin-bottom: 20px;
 }
 
@@ -107,7 +107,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 140px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .certification li {

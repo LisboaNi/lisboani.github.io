@@ -1,0 +1,66 @@
+.tcc-bg {
+  position: relative;
+  z-index: 0;
+}
+
+.tcc-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+background-image: url("../../img/background/bottom.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left bottom;
+  z-index: -1;
+}
+
+.tcc-tag {
+  background: var(--cor-2);
+  padding: 60px;
+  border-radius: 5px;
+  margin: 40px 0;
+  transition: transform 0.3s ease;
+  border: #a4d5e7 solid 1px;
+  box-shadow: 0 0 20px color-mix(in srgb, var(--cor-p1) 20%, transparent);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tcc-tag:hover {
+  transform: translateY(-5px);
+}
+
+.tcc-title {
+  margin-bottom: 20px;
+  justify-items: center;
+}
+
+.tcc-title i {
+  display: block;
+}
+
+.tcc-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-left: #a4d5e7 solid 2px;
+  padding-left: 40px;
+}
+
+.tcc-content i {
+    margin-left: 15px;
+}
+
+.tcc-content a {
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+  .tcc-tag {
+    width: auto;
+  }
+}
