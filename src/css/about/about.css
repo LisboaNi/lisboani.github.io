@@ -2,16 +2,15 @@
 
 .about {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr;
   gap: 40px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 .about-bg{
   position: relative;
   overflow: hidden;
   z-index: 0;
-  margin-bottom: 40px;
 }
 
 .about-bg::before {
@@ -26,6 +25,10 @@
 }
 
 /* FORMAÇÃO / EXPERIENCIA*/
+.experience {
+  margin-bottom: 40px;
+}
+
 .formacao-bg,
 .experience-bg li {
   margin-top: 15px;
@@ -94,6 +97,12 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   gap: 40px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 40px;
 }
 
 /* CONTATO +INFO */

@@ -1,0 +1,29 @@
+.footer-bg {
+    background: var(--cor-7);
+    padding: 40px 0px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    justify-items: center;
+    align-items: center;
+}
+
+.footer li{
+    margin-bottom: 10px;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.links h2 {
+    text-align: center;
+}
+
+.links i {
+    margin-left: 25px;
+}
