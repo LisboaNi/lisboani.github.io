@@ -7,16 +7,16 @@
   content: "";
   position: absolute;
   inset: 0;
-background-image: url("../../img/background/bottom.svg");
+  background-image: url("../../img/background/project_top.svg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: left bottom;
+  background-size: 50%;
+  background-position: right top;
   z-index: -1;
 }
 
 .tcc-tag {
   background: var(--cor-2);
-  padding: 60px;
+  padding: 40px 80px 40px 40px;
   border-radius: 5px;
   margin: 40px 0;
   transition: transform 0.3s ease;

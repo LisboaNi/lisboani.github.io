@@ -1,5 +1,19 @@
 .contact-bg {
-    background: var(--cor-2);
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  background: var(--cor-2);
+}
+
+.contact-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../../img/background/contact_bottom.svg");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: left bottom;
+  z-index: -1;
 }
 
 .contact-form {
@@ -29,6 +43,10 @@
   transform: translateY(0);
   transition: transform 0.5s ease;
   z-index: -1;
+}
+
+.contact-form:hover::before {
+  transform: translateY(-5px); 
 }
 
 .form-grid {
