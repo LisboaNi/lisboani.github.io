@@ -94,3 +94,32 @@ document.addEventListener('DOMContentLoaded', () => {
   const lang = localStorage.getItem('language') || 'pt';
   loadLanguage(lang);
 });
+
+
+//CONTATO
+const form = document.getElementById('contact-form');
+const toast = document.getElementById('form-success');
+
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+
+  const data = new FormData(form);
+
+  const response = await fetch('https://formspree.io/f/xdkdeeqq', {
+    method: 'POST',
+    body: data,
+    headers: { Accept: 'application/json' }
+  });
+
+  if (response.ok) {
+    toast.classList.add('show');
+    form.reset();
+
+    // Oculta o toast após 4 segundos
+    setTimeout(() => {
+      toast.classList.remove('show');
+    }, 4000);
+  } else {
+    alert('Erro ao enviar. Tente novamente mais tarde.');
+  }
+});

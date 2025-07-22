@@ -24,6 +24,10 @@
   padding-bottom: 50px;
 }
 
+.project img {
+  width: 100%;
+}
+
 .project li {
   background-color: var(--cor-2);
   border-radius: 5px;
@@ -36,7 +40,7 @@
 }
 
 .project li div{
-    padding: 20px;
+    padding: 30px;
 }
 
 .project li div h2,

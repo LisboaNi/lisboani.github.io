@@ -130,6 +130,7 @@
                         <li><h2 class="font-6">HTML CSS para Iniciantes</h2>Origamid<a href="https://origamid.com/certificate/000f1532" target="_blank" rel="noopener noreferrer" class="cor-p1"><span data-i18n="certification.link">Abrir certificado</span><i class="bi bi-box-arrow-in-up-right"></i></a></li>
                         <li><h2 class="font-6">UI Design para Iniciantes</h2>Origamid<a href="https://www.origamid.com/certificate/dcf03bfe" target="_blank" rel="noopener noreferrer" class="cor-p1"><span data-i18n="certification.link">Abrir certificado</span><i class="bi bi-box-arrow-in-up-right"></i></a></li>
                         <li><h2 class="font-6">Front End e UX/UI Design</h2>Origamid<a href="https://www.origamid.com/certificate/f790589c" target="_blank" rel="noopener noreferrer" class="cor-p1"><span data-i18n="certification.link">Abrir certificado</span><i class="bi bi-box-arrow-in-up-right"></i></a></li>
+
                     </ul>
                 </div>
 
@@ -241,27 +242,32 @@
 
             <div class="contact-content">
 
-                <form action="" class="contact-form">
+                <form id="contact-form" class="contact-form">
                     <div class="form-grid">
                         <div class="form-left">
-                            <div class="form-group">
-                                <label for="nome" class="font-5 cor-1" data-i18n="contact.name">Nome</label>
-                                <input type="text" id="nome" name="nome" class="cor-1"/>
-                            </div>
-                            <div class="form-group">
-                                <label for="email" class="font-5 cor-1" data-i18n="about.name">Email</label>
-                                <input type="email" id="email" name="email" class="cor-1"/>
-                            </div>
+                        <div class="form-group">
+                            <label for="nome" class="font-5 cor-1" data-i18n="contact.name">Nome</label>
+                            <input type="text" id="nome" name="nome" required class="cor-1" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="font-5 cor-1" data-i18n="contact.email">Email</label>
+                            <input type="email" id="email" name="email" required class="cor-1" />
+                        </div>
                         </div>
                         <div class="form-right">
                         <div class="form-group">
                             <label for="mensagem" class="font-5 cor-1" data-i18n="contact.mensagem">Mensagem</label>
-                            <textarea id="mensagem" name="mensagem" rows="6" class="cor-1"></textarea>
+                            <textarea id="mensagem" name="mensagem" rows="6" required class="cor-1"></textarea>
                         </div>
                         </div>
                     </div>
-                    <button type="submit" class="botao-enviar"><i class="bi bi-send-fill"></i><span data-i18n="contact.send">ENVIAR</span></button>
+                    <button type="submit" class="botao-enviar">
+                        <i class="bi bi-send-fill"></i><span data-i18n="contact.send">ENVIAR</span>
+                    </button>
                 </form>
+                
+                <div id="form-success" class="form-success-toast font-5">Mensagem enviada com sucesso!</div>
+
                 <div class="contact-social">
                     <ul>
                         <li><a href="mailto:nick.lisboa04@gmail.com" target="_blank" rel="noopener noreferrer"><i class="devicon-github-original cor-p1 font-7"></i></a></li>
