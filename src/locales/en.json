@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "about": "Summary",
+    "certification": "Certificates",
+    "projects": "Projects"
+  },
+  "subtitle": "Junior Developer",
+  "about": {
+    "about": "About me",
+    "description": "I am looking for an opportunity to develop skills focused on technical development in areas of information technology.",
+    "academy": "Academy",
+    "course": "Systems Analysis and Development",
+    "email": "Email",
+    "location": "Location",
+    "cv": "Resume",
+    "cv-pdf": "My resume"
+  },
+  "experience": {
+    "experience": "Experience",
+    "job1": "Administrative Assistant",
+    "job2": "IT Support Assistant",
+    "job3": "Junior Developer"
+  },
+  "skill": {
+    "title": "Skills",
+    "tools": "Tools"
+  },
+  "certification": {
+    "title": "Certificates",
+    "tab": "Others",
+    "course": "Course",
+    "link": "Open the certificate"
+  },
+  "projects": "Projects",
+  "contact": {
+    "contact": "Contact",
+    "name": "Name",
+    "mensagem": "Message",
+    "send": "SEND"
+  },
+  "copy": "All rights reserved."
+}

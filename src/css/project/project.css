@@ -19,7 +19,7 @@
 .project {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;
+  gap: 20px;
   padding-top: 20px;
   padding-bottom: 50px;
 }
@@ -36,7 +36,7 @@
 }
 
 .project li div{
-    padding: 25px;
+    padding: 20px;
 }
 
 .project li div h2,

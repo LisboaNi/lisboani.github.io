@@ -9,64 +9,78 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" href="./src/css/style.css">
+
     <link rel="icon" href="./src/img/detail/bubble_detail.svg">
 
 </head>
 
-<body>
+<body id="topo">
+    
+    <a href="#topo" class="back-to-top" id="backToTop" aria-label="Voltar ao topo"><i class="bi bi-arrow-up-circle-fill cor-p1 font-4"></i></a>
 
-    <header class="header-bg">
+    <header class="header-bg no-dark" id="header">
         <div class="header container">
             <a href="./index.html"><img src="./src/img/logo.svg" alt="Logo | Nicoli Lisboa"></a>
             <nav class="font-1 cor-3">
                 <ul>
-                    <li><a href="#about">Resumo</a></li>
-                    <li><a href="#certification">Certificados</a></li>
-                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#about" data-i18n="nav.about">Resumo</a></li>
+                    <li><a href="#certification" data-i18n="nav.certification">Certificados</a></li>
+                    <li><a href="#projects" data-i18n="nav.projects">Projetos</a></li>
+                    <li><button id="toggle-theme" aria-label="Alternar tema"><i class="bi bi-moon-stars-fill"></i></button></li>
+                    <li class="lang-dropdown" aria-label="Selecionar idioma">
+                    <button aria-haspopup="true" aria-expanded="false" id="lang-btn">
+                        <i class="bi bi-translate"></i>
+                        <span id="current-lang">PT</span>
+                    </button>
+                    <div class="lang-dropdown-content" role="menu" aria-labelledby="lang-btn">
+                        <button data-lang="pt" class="lang-option" aria-label="Português">PT</button>
+                        <button data-lang="en" class="lang-option" aria-label="English">EN</button>
+                        <button data-lang="es" class="lang-option" aria-label="Español">ES</button>
+                    </div>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main class="banner-bg">
+    <main class="banner-bg no-dark">
         <div class="banner container cor-4">
             <h1 class="font-2">Nicoli Gabrielli<span class="cor-p1"> Reichert Lisboa</span></h1>
-            <p class="font-3">Desenvolvedora Júnior</p>
+            <p class="font-3" data-i18n="subtitle">Desenvolvedora Júnior</p>
         </div>
     </main>
 
     <section id="about" class="about-bg">
         <div class="container font-5 cor-1">
 
-            <div class="title-1 cor-0"><h1 class="font-4">Sobre mim</h1></div>
+            <div class="title-1 cor-0"><h1 class="font-4" data-i18n="about.about">Sobre mim</h1></div>
 
             <div class="about">
+                <div class="form">
+                    <p data-i18n="about.description">Busco oportunidade de desenvolver aptidão voltada ao desenvolvimento técnico em áreas da tecnologia da informação.</p>
+                    <ul class="formacao-bg">
+                        <li><h2 class="font-6"><i class="bi bi-mortarboard font-5"></i><span data-i18n="about.academy">Formação</span></h2></li>
+                        <li class="formacao"><p data-i18n="about.course">Análise e Desenvolvimento de Sistemas</p><div><span>2023-2025</span></div></li>
+                        <li>USCS - Universidade de São Caetano do Sul</li>
+                    </ul>
+                </div>
                 <ul class="info">
-                    <li><p>Email</p><a href="#">nick.lisboa04@gmail.com<i class="bi bi-box-arrow-in-up-right"></i></a></li>
-                    <li><p>Linkedin</p><a href="#">in/nicoli-lisboa<i class="bi bi-box-arrow-in-up-right"></i></a></li>
-                    <li><p>Github</p><a href="#">LisboaNi<i class="bi bi-box-arrow-in-up-right"></i></a></li>
+                    <li><p data-i18n="about.email">Email</p><a href="mailto:nick.lisboa04@gmail.com">nick.lisboa04@gmail.com<i class="bi bi-box-arrow-in-up-right"></i></a></li>
+                    <li><p>Linkedin</p><a href="https://www.linkedin.com/in/nicoli-lisboa" target="_blank" rel="noopener noreferrer">in/nicoli-lisboa<i class="bi bi-box-arrow-in-up-right"></i></a></li>
+                    <li><p>Github</p><a href="https://github.com/LisboaNi" target="_blank" rel="noopener noreferrer">LisboaNi<i class="bi bi-box-arrow-in-up-right"></i></a></li>
                 </ul>
                 <ul class="info">
-                    <li><p>Localização</p>Santo André - SP</li>
-                    <li><p>CV</p><a href="#" class="cor-p1">Meu currículo<i class="bi bi-download"></i></a></li>
-                </ul>
-                <p>Busco oportunidade de desenvolver aptidão voltada ao desenvolvimento técnico em áreas da tecnologia da informação.</p>
-            </div>
-
-            <div class="form">
-                <ul class="formacao-bg">
-                    <li><h2 class="font-6"><i class="bi bi-mortarboard font-5"></i>Formação</h2></li>
-                    <li class="formacao">Análise e Desenvolvimento de Sistemas<div><span>2023-2025</span></div></li>
-                    <li>USCS - Universidade de São Caetano do Sul</li>
+                    <li><p data-i18n="about.location">Localização</p>Santo André - SP</li>
+                    <li><p data-i18n="about.cv">CV</p><a href="./src/doc/cv.pdf" class="cor-p1" download="meu-curriculo.pdf"><span data-i18n="about.cv-pdf">Meu currículo</span><i class="bi bi-download"></i></a></li>
                 </ul>
             </div>
 
             <div id="experience" class="experience">
-                <h2 class="font-7">Experiências</h2>   
+                <h2 class="font-7" data-i18n="experience.experience">Experiências</h2>   
                 <ul class="experience-bg">
-                    <li><h2 class="font-6">Opensystech<div><span>2022-2024</span></div></h2>Auxilixar Administrativo</li>
-                    <li><h2 class="font-6">Opensystech<div><span>2024-2025</span></div></h2>Auxilixar de Suporte de TI</li>
-                    <li><h2 class="font-6">Opensystech<div><span>2025-Atual</span></div></h2>Programador Júnior C</li>
+                    <li><h2 class="font-6">Opensystech<div><span>2022-2024</span></div></h2><p data-i18n="experience.job1">Auxilixar Administrativo</p></li>
+                    <li><h2 class="font-6">Opensystech<div><span>2024-2025</span></div></h2><p data-i18n="experience.job2">Auxilixar de Suporte de TI</p></li>
+                    <li><h2 class="font-6">Opensystech<div><span>2025-Atual</span></div></h2><p data-i18n="experience.job3">Programador Júnior C</p></li>
                 </ul>
             </div>
 
@@ -76,12 +90,12 @@
     <section id="skill" class="skill-bg">
 
         <div class="skill container font-5 cor-1">
-            <h2 class="font-7">Habilidades</h2>
+            <h2 class="skill-title font-7" data-i18n="skill.title">Habilidades</h2>
             <ul class="skills">
-                <li><h2 class="font-6"><span><i class="bi bi-code-square"></i></span>Front-End</h2>HTML, CSS, JavaScript, Flexbox e Figma.</li>
-                <li><h2 class="font-6"><span><i class="bi bi-gear"></i></span>Back-End</h2>Python, Node.js, PostgreSQL e MySQL.</li>
-                <li><h2 class="font-6"><span><i class="bi bi-share"></i></span>Frameworks</h2>Django e Sequelize.</li>
-                <li><h2 class="font-6"><span><i class="bi bi-rocket-takeoff"></i></span>Ferramentas</h2>Git, GitHub, Postman e DBeaver.</li>
+                <li><h2 class="font-6"><i class="bi bi-code-square cor-p1"></i>Front-End</h2>HTML, CSS, JavaScript, Flexbox e Figma.</li>
+                <li><h2 class="font-6"><i class="bi bi-gear cor-p1"></i>Back-End</h2>Python, Node.js, PostgreSQL e MySQL.</li>
+                <li><h2 class="font-6"><i class="bi bi-share cor-p1"></i>Frameworks</h2>Django e Sequelize.</li>
+                <li><h2 class="font-6"><i class="bi bi-rocket-takeoff cor-p1"></i><span data-i18n="skill.tools">Ferramentas</span></h2>Git, GitHub, Postman e DBeaver.</li>
             </ul>
             <ul class="icons cor-1 font-7">
                 <li><i class="devicon-html5-plain"></i></li>
@@ -97,106 +111,72 @@
 
     </section>
 
-    <section id="certification" class="certification-bg">
+    <section id="certification" class="certification-bg no-dark">
         <div class="container">
 
-            <div class="title-2 cor-4"><h1 class="font-4">Certificados</h1></div>
+            <div class="title-2 cor-4"><h1 class="font-4" data-i18n="certification.title">Certificados</h1></div>
 
             <div class="tabs-menu">
                 <button class="tab-btn font-7 cor-2 active" data-tab="frontend">Front-End</button>
                 <button class="tab-btn font-7 cor-2" data-tab="backend">Back-End</button>
-                <button class="tab-btn font-7 cor-2" data-tab="outros">Outros</button>
+                <button class="tab-btn font-7 cor-2" data-tab="outros" data-i18n="certification.tab">Outros</button>
             </div>
 
             <div class="tabs-content">
 
                 <div class="tab-content font-5 cor-3 active" id="frontend">
                     <ul>
-                        <li><h2 class="font-6">CSS Flexbox</h2>Origamid<a href="#" class="cor-p1">Abrir certificado<i class="bi bi-box-arrow-in-up-right"></i></a></li>
-                        <li><h2 class="font-6">HTML CSS para Iniciantes</h2>Origamid<a href="#" class="cor-p1">Abrir certificado<i class="bi bi-box-arrow-in-up-right"></i></a></li>
-                        <li><h2 class="font-6">UI Design para Iniciantes</h2>Origamid<a href="#" class="cor-p1">Abrir certificado<i class="bi bi-box-arrow-in-up-right"></i></a></li>
-                        <li><h2 class="font-6">CSS Grid Layout</h2>Origamid<a href="#" class="cor-p1">Em andamento<i class="bi bi-box-arrow-in-up-right"></i></a></li>
+                        <li><h2 class="font-6">CSS Flexbox</h2>Origamid<a href="https://www.origamid.com/certificate/06998c8e" target="_blank" rel="noopener noreferrer" class="cor-p1"><span data-i18n="certification.link">Abrir certificado</span><i class="bi bi-box-arrow-in-up-right"></i></a></li>
+                        <li><h2 class="font-6">HTML CSS para Iniciantes</h2>Origamid<a href="https://origamid.com/certificate/000f1532" target="_blank" rel="noopener noreferrer" class="cor-p1"><span data-i18n="certification.link">Abrir certificado</span><i class="bi bi-box-arrow-in-up-right"></i></a></li>
+                        <li><h2 class="font-6">UI Design para Iniciantes</h2>Origamid<a href="https://www.origamid.com/certificate/dcf03bfe" target="_blank" rel="noopener noreferrer" class="cor-p1"><span data-i18n="certification.link">Abrir certificado</span><i class="bi bi-box-arrow-in-up-right"></i></a></li>
+                        <li><h2 class="font-6">Front End e UX/UI Design</h2>Origamid<a href="https://www.origamid.com/certificate/f790589c" target="_blank" rel="noopener noreferrer" class="cor-p1"><span data-i18n="certification.link">Abrir certificado</span><i class="bi bi-box-arrow-in-up-right"></i></a></li>
                     </ul>
                 </div>
 
                 <div class="tab-content font-5 cor-3" id="backend">
                     <ul>
-                        <li><h2 class="font-6">ADM Banco de Dados</h2>Fundação Bradesco<a href="#" class="cor-p1">Abrir certificado<i class="bi bi-box-arrow-in-up-right"></i></a></li>
-                        <li><h2 class="font-6">Implementação do Banco</h2>Fundação Bradesco<a href="#" class="cor-p1">Abrir certificado<i class="bi bi-box-arrow-in-up-right"></i></a></li>
-                        <li><h2 class="font-6">Modelagem Dados</h2>Fundação Bradesco<a href="#" class="cor-p1">Abrir certificado<i class="bi bi-box-arrow-in-up-right"></i></a></li>
+                        <li><h2 class="font-6">ADM Banco de Dados</h2>Fundação Bradesco<a href="https://www.linkedin.com/in/nicoli-lisboa/details/certifications/1740354485797/single-media-viewer/?profileId=ACoAADdClAAB7V84ABBUSI5NOFd2-9z-CVmSgfk" target="_blank" rel="noopener noreferrer" class="cor-p1"><span data-i18n="certification.link">Abrir certificado</span><i class="bi bi-box-arrow-in-up-right"></i></a></li>
+                        <li><h2 class="font-6">Implementação do Banco</h2>Fundação Bradesco<a href="https://www.linkedin.com/in/nicoli-lisboa/details/certifications/1740354250833/single-media-viewer/?profileId=ACoAADdClAAB7V84ABBUSI5NOFd2-9z-CVmSgfk" target="_blank" rel="noopener noreferrer" class="cor-p1"><span data-i18n="certification.link">Abrir certificado</span><i class="bi bi-box-arrow-in-up-right"></i></a></li>
+                        <li><h2 class="font-6">Modelagem Dados</h2>Fundação Bradesco<a href="https://www.linkedin.com/in/nicoli-lisboa/details/certifications/1740353731279/single-media-viewer/?profileId=ACoAADdClAAB7V84ABBUSI5NOFd2-9z-CVmSgfk" target="_blank" rel="noopener noreferrer" class="cor-p1"><span data-i18n="certification.link">Abrir certificado</span><i class="bi bi-box-arrow-in-up-right"></i></a></li>
                     </ul>
                 </div>
 
                 <div class="tab-content font-5 cor-3" id="outros">
                     <ul>
-                        <li><h2 class="font-6">Cloud Foundations</h2>AWS Academy<a href="#" class="cor-p1">Abrir certificado<i class="bi bi-box-arrow-in-up-right"></i></a></li>
-                        <li><h2 class="font-6">Cibersegurança</h2>Cisco Academy<a href="#" class="cor-p1">Abrir certificado<i class="bi bi-box-arrow-in-up-right"></i></a></li>
+                        <li><h2 class="font-6">Cloud Foundations</h2>AWS Academy<a href="https://www.credly.com/badges/33bfa54e-261c-4c40-9c2b-ed14c0695eaf/print" target="_blank" rel="noopener noreferrer" class="cor-p1"><span data-i18n="certification.link">Abrir certificado</span><i class="bi bi-box-arrow-in-up-right"></i></a></li>
+                        <li><h2 class="font-6">Cibersegurança</h2>Cisco Academy<a href="https://www.credly.com/earner/earned/badge/12743523-110e-499d-8b74-a7a1abe7f687" target="_blank" rel="noopener noreferrer" class="cor-p1"><span data-i18n="certification.link">Abrir certificado</span><i class="bi bi-box-arrow-in-up-right"></i></a></li>
                     </ul>
                 </div>
 
             </div>
 
-            <div class="title-3 cor-4"><h1 class="font-7">Cursos</h1></div>
+            <div class="title-3 cor-4"><h1 class="font-7" data-i18n="certification.course">Cursos</h1></div>
 
             <div id="progress" class="certification font-8 cor-2">
 
                 <ul>
                     <li><h2 class="font-6 cor-4"><i class="bi bi-code-square cor-p1"></i>Front-End</h2></li>
                     <li>CSS Flexbox<span>6h</span></li>
-                    <li>HTML CSS para Iniciantes<span>6h</span></li>
-                    <li>UI Design para Iniciantes<span>6h</span></li>
+                    <li>HTML CSS para Iniciantes<span>46h</span></li>
+                    <li>UI Design para Iniciantes<span>34h</span></li>
+                    <li>Front End e UX/UI Design<span>86h</span></li>
                     <li>CSS Grid Layout<span>-</span></li>
                 </ul>
 
                 <ul>
                     <li><h2 class="font-6 cor-4"><i class="bi bi-gear cor-p1"></i>Back-End</h2></li>
-                    <li>ADM Banco de Dados<span>6h</span></li>
-                    <li>Implementação Banco<span>6h</span></li>
-                    <li>Modelagem de Dados<span>6h</span></li>
+                    <li>ADM Banco de Dados<span>15h</span></li>
+                    <li>Implementação Banco<span>15h</span></li>
+                    <li>Modelagem de Dados<span>8h</span></li>
                 </ul>
 
                 <ul>
-                    <li><h2 class="font-6 cor-4"><i class="bi bi-rocket-takeoff cor-p1"></i>Outros</h2></li>
+                    <li><h2 class="font-6 cor-4"><i class="bi bi-rocket-takeoff cor-p1"></i><span data-i18n="certification.tab">Outros</span></h2></li>
                     <li>Cibersegurança<span>6h</span></li>
-                    <li>Cloud Foundations<span>6h</span></li>
+                    <li>Cloud Foundations<span>20h</span></li>
                     <li>Espanhol<span>-</span></li>
                 </ul>
             </div>
-
-        </div>
-    </section>
-
-    <section id="projects" class="projects-bg">
-        <div class="projects container">
-
-            <div class="title-1 cor-0"><h1 class="font-4">Projetos</h1></div>
-
-            <ul class="project font-5">
-                    <li>
-                        <img src="./src/img/project/bikcraft.png" alt="Project 1">
-                        <div>
-                            <h2 class="font-6">Bikcraft</h2>
-                            <p>Desenvolvido durante o curso HTML e CSS para Iniciantes. O objetivo é aplicar os fundamentos do desenvolvimento web.</p>
-                            <a href="#" class="cor-p1">Views<i class="bi bi-box-arrow-in-up-right"></i></a>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./src/img/project/flexblog.png" alt="Project 2">
-                        <div>
-                            <h2 class="font-6">Bikcraft</h2>
-                            <p>Desenvolvido durante o curso CSS Flexbox. O objetivo é aplicar os fundamentos utilizando apenas as propriedades do Flexbox.</p>
-                            <a href="#" class="cor-p1 font-5">Views<i class="bi bi-box-arrow-in-up-right"></i></a>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./src/img/project/mindtechcare.png" alt="Project 3">
-                        <div>
-                            <h2 class="font-6">Bikcraft</h2>
-                            <p>Plataforma voltada para bem-estar com integração com GitHub e Trello para ajudar a monitorar e prevenir sinais de burnout e sobrecarga.</p>
-                            <a href="#" class="cor-p1">GitHub<i class="bi bi-box-arrow-in-up-right"></i></a>
-                        </div>
-                    </li>
-            </ul>
 
         </div>
     </section>
@@ -217,12 +197,47 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>  -->
+
+    <section id="projects" class="projects-bg">
+        <div class="projects container">
+
+            <div class="title-1 cor-0"><h1 class="font-4" data-i18n="projects">Projetos</h1></div>
+
+            <ul class="project font-5 cor-0">
+                    <li>
+                        <img src="./src/img/project/bikcraft.png" alt="Project 1">
+                        <div>
+                            <h2 class="font-6">Bikcraft</h2>
+                            <p>Desenvolvido durante o curso HTML e CSS para Iniciantes. O objetivo é aplicar os fundamentos do desenvolvimento web.</p>
+                            <a href="https://lisboani.github.io/Origamid/bikecraft/bikcraft.html" class="cor-p1" target="_blank" rel="noopener noreferrer">Views<i class="bi bi-box-arrow-in-up-right"></i></a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./src/img/project/flexblog.png" alt="Project 2">
+                        <div>
+                            <h2 class="font-6">FlexBlog</h2>
+                            <p>Desenvolvido durante o curso CSS Flexbox. O objetivo é aplicar os fundamentos utilizando apenas as propriedades do Flexbox.</p>
+                            <a href="https://lisboani.github.io/Origamid/flexblog/flexblog.html" class="cor-p1" target="_blank" rel="noopener noreferrer">Views<i class="bi bi-box-arrow-in-up-right"></i></a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./src/img/project/mindtechcare.png" alt="Project 3">
+                        <div>
+                            <h2 class="font-6">MindTechCare</h2>
+                            <p>Plataforma voltada para bem-estar com integração com GitHub e Trello para ajudar a monitorar e prevenir sinais de burnout e sobrecarga.</p>
+                            <a href="https://github.com/LisboaNi/MindTechCare" class="cor-p1" target="_blank" rel="noopener noreferrer">GitHub<i class="bi bi-box-arrow-in-up-right"></i></a>
+                        </div>
+                    </li>
+            </ul>
+
+        </div>
+    </section>
 
     <section id="contact" class="contact-bg">
         <div class="contact container">
 
-            <div class="title-2"><h1 class="font-4">Contato</h1></div>
+            <div class="title-2"><h1 class="font-4 cor-1" data-i18n="contact.contact">Contato</h1></div>
 
             <div class="contact-content">
 
@@ -230,28 +245,28 @@
                     <div class="form-grid">
                         <div class="form-left">
                             <div class="form-group">
-                                <label for="nome" class="font-5 cor-1">Nome</label>
+                                <label for="nome" class="font-5 cor-1" data-i18n="contact.name">Nome</label>
                                 <input type="text" id="nome" name="nome" class="cor-1"/>
                             </div>
                             <div class="form-group">
-                                <label for="email" class="font-5 cor-1">Email</label>
+                                <label for="email" class="font-5 cor-1" data-i18n="about.name">Email</label>
                                 <input type="email" id="email" name="email" class="cor-1"/>
                             </div>
                         </div>
                         <div class="form-right">
                         <div class="form-group">
-                            <label for="mensagem" class="font-5 cor-1">Mensagem</label>
+                            <label for="mensagem" class="font-5 cor-1" data-i18n="contact.mensagem">Mensagem</label>
                             <textarea id="mensagem" name="mensagem" rows="6" class="cor-1"></textarea>
                         </div>
                         </div>
                     </div>
-                    <button type="submit" class="botao-enviar"><i class="bi bi-send-fill"></i>ENVIAR</button>
+                    <button type="submit" class="botao-enviar"><i class="bi bi-send-fill"></i><span data-i18n="contact.send">ENVIAR</span></button>
                 </form>
                 <div class="contact-social">
                     <ul>
-                        <li><a href="#"><i class="devicon-github-original cor-p1 font-7"></i></a></li>
-                        <li><a href="#"><i class="devicon-linkedin-plain cor-p1 font-7"></i></a></li>
-                        <li><a href="#"><i class="bi bi-envelope cor-p1 font-7"></i></a></li>
+                        <li><a href="mailto:nick.lisboa04@gmail.com" target="_blank" rel="noopener noreferrer"><i class="devicon-github-original cor-p1 font-7"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/nicoli-lisboa" target="_blank" rel="noopener noreferrer"><i class="devicon-linkedin-plain cor-p1 font-7"></i></a></li>
+                        <li><a href="https://github.com/LisboaNi"target="_blank" rel="noopener noreferrer"><i class="bi bi-envelope cor-p1 font-7"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -259,33 +274,33 @@
         </div>
     </section>
 
-    <footer class="footer-bg">
+    <footer class="footer-bg no-dark">
         <div class="footer container">
             <div><img src="./src/img/footer.svg" alt="Logo"></div>
             <div class="links">
                 <ul class="footer-nav font-8 cor-3">
-                    <li><h2 class="font-6 cor-2">Resumo</h2></li>
-                    <li><a href="#about" class="cor-p1">Sobre mim<i class="bi bi-box-arrow-in-up-right"></i></a></li>
-                    <li><a href="#about">Formação</a></li>
-                    <li><a href="#experience">Experiência</a></li>
-                    <li><a href="#skill">Habilidade</a></li>
+                    <li><h2 class="font-6 cor-2" data-i18n="nav.about">Resumo</h2></li>
+                    <li><a href="#about" class="cor-p1"><span data-i18n="about.about">Sobre mim</span><i class="bi bi-box-arrow-in-up-right"></i></a></li>
+                    <li><a href="#about"><span data-i18n="about.academy">Formação</span></a></li>
+                    <li><a href="#experience"><span data-i18n="experience.experience">Experiência</span></a></li>
+                    <li><a href="#skill"><span data-i18n="skill.title">Habilidade</span></a></li>
                 </ul>
                 <ul class="footer-nav font-8 cor-3">
-                    <li><h2 class="font-6 cor-2">Certificados</h2></li>
-                    <li><a href="#certification" class="cor-p1">Certificados<i class="bi bi-box-arrow-in-up-right"></i></a></li>
-                    <li><a href="#progress">Cursos</a></li>
+                    <li><h2 class="font-6 cor-2" data-i18n="certification.title">Certificados</h2></li>
+                    <li><a href="#certification" class="cor-p1"><span data-i18n="certification.title">Certificados</span><i class="bi bi-box-arrow-in-up-right"></i></a></li>
+                    <li><a href="#progress"><span data-i18n="certification.course">Cursos</span></a></li>
                 </ul>
                 <ul class="footer-nav font-8 cor-3">
-                    <li><h2 class="font-6 cor-2">Projetos</h2></li>
-                    <li><a href="#projects" class="cor-p1">Projetos<i class="bi bi-box-arrow-in-up-right"></i></a></li>
-                    <li><a href="#tcc">TCC</a></li>
+                    <li><h2 class="font-6 cor-2" data-i18n="projects">Projetos</h2></li>
+                    <li><a href="#projects" class="cor-p1"><span data-i18n="projects">Projetos</span><i class="bi bi-box-arrow-in-up-right"></i></a></li>
+                    <!-- <li><a href="#tcc">TCC</a></li> -->
                 </ul>
             </div>
-            <p class="font-5 cor-3">© 2025 Nicoli Lisboa. Todos os direitos reservados.</p>
+            <p class="font-5 cor-3">© 2025 Nicoli Lisboa. <span data-i18n="copy">Todos os direitos reservados.</span></p>
         </div>
     </footer>
     
-    <script src="./src/js/certification.js"></script>
+    <script src="./src/js/script.js"></script>
 </body>
 
 </html>

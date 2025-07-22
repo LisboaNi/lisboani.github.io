@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -5,6 +9,8 @@
 
 body {
   background: var(--cor-3);
+  transition: background 0.3s, color 0.3s;
+
 }
 
 ul {
@@ -56,4 +62,30 @@ a {
   padding-bottom: 15px;
   margin-bottom: 40px;
   border-bottom: var(--cor-p1) solid 3px;
+}
+
+/* TOPO */
+
+.back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  padding: 12px 16px;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 999;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+
+button {
+  cursor: pointer;
 }

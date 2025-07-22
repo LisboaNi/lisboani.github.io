@@ -10,6 +10,26 @@
   --cor-p1: #2392bb;
 }
 
+.dark .no-dark {
+  --cor-0: #141414;
+  --cor-1: #3d3d3d;
+  --cor-2: #f0f0f0;
+  --cor-3: #f7f7f7;
+  --cor-4: #dfdfdf;
+  --cor-5: #15161c;
+  --cor-6: #202126;
+  --cor-7: #1e1f25;
+  --cor-p1: #2392bb;
+}
+
+.dark {
+  --cor-0: #f0f0f0;
+  --cor-1: #f7f7f7;
+  --cor-2: #202126;
+  --cor-3: #1e1f25;
+  --cor-5: #f7f7f7;
+}
+
 .cor-0 {
   color: var(--cor-0);
 }

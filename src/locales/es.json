@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "about": "Resumen",
+    "certification": "Certificaciones",
+    "projects": "Proyectos"
+  },
+  "subtitle": "Desarrollador Junior",
+  "about": {
+    "about": "Sobre mí",
+    "description": "Busco una oportunidad para desarrollar mis habilidades técnicas en tecnologías de la información.",
+    "academy": "Educación",
+    "course": "Análisis y Desarrollo de Sistemas",
+    "email": "Correo electrónico",
+    "location": "Ubicación",
+    "cv": "Currículum",
+    "cv-pdf": "Mi currículum"
+  },
+  "experience": {
+    "experience": "Experiencias",
+    "job1": "Asistente Administrativo",
+    "job2": "Asistente de Soporte de TI",
+    "job3": "Desarrollador Junior"
+  },
+  "skill": {
+    "title": "Habilidades",
+    "tools": "Herramientas"
+  },
+  "certification": {
+    "title": "Certificados",
+    "tab": "Otros",
+    "course": "Cursos",
+    "link": "Abrir el certificado"
+  },
+  "projects": "Proyectos",
+  "contact": {
+    "contact": "Contacto",
+    "name": "Nombre",
+    "mensagem": "Mensaje",
+    "send": "ENVÍO"
+  },
+  "copy": "Reservados todos los derechos."
+}
+

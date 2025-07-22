@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "about": "Resumo",
+    "certification": "Certificados",
+    "projects": "Projetos"
+  },
+  "subtitle": "Desenvolvedora Júnior",
+  "about": {
+    "about": "Sobre Mim",
+    "description": "Busco oportunidade de desenvolver aptidão voltada ao desenvolvimento técnico em áreas da tecnologia da informação.",
+    "academy": "Formação",
+    "course": "Análise e Desenvolvimento de Sistemas",
+    "email": "Email",
+    "location": "Localização",
+    "cv": "cv",
+    "cv-pdf": "Meu currículo"
+  },
+  "experience": {
+    "experience": "Experiências",
+    "job1": "Auxilixar Administrativo",
+    "job2": "Auxilixar de Suporte de TI",
+    "job3": "Programador Júnior C"
+  },
+  "skill": {
+    "title": "Habilidades",
+    "tools": "Ferramentas"
+  },
+  "certification": {
+    "title": "Certificados",
+    "tab": "Outros",
+    "course": "Cursos",
+    "link": "Abrir certificado"
+  },
+  "projects": "Projetos",
+  "contact": {
+    "contact": "Contato",
+    "name": "Nome",
+    "mensagem": "Mensagem",
+    "send": "ENVIO"
+  },
+  "copy": "Todos os direitos reservados."
+}
