@@ -143,3 +143,16 @@ label {
   transform: translateY(0);
   pointer-events: auto;
 }
+
+@media (max-width: 600px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-form::before {
+    display: none;
+  }
+}
