@@ -19,7 +19,8 @@
     "experience": "Experience",
     "job1": "Administrative Assistant",
     "job2": "IT Support Assistant",
-    "job3": "Junior Developer"
+    "job3": "Junior Developer",
+    "job4": "Junior Python Developer"
   },
   "skill": {
     "title": "Skills",
